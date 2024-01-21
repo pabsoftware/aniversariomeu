@@ -1,0 +1,40 @@
+.refrigerantes {
+    padding: 80px 0;
+    background: linear-gradient(90deg, rgb(116, 100, 72) 0%, rgb(112, 96, 77) 65%, rgb(77, 62, 42) 100%);
+
+    &__detalhe {
+        margin-right: 40px;
+
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        &__descricao {
+            line-height: 22px;
+        }
+    }
+    .container {
+        display: flex;
+    }
+
+    &__image {
+        max-width: 360px;
+        border-radius: 10px;
+
+    }
+    @media (max-width: 640px) {
+        .container {
+            display: block;
+        }
+        &__image {
+            width: 100%;
+        }
+
+        &__detalhe {
+            margin-right: 0;
+            margin-bottom: 16px;
+        }
+    }
+}

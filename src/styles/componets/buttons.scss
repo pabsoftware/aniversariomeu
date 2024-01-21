@@ -1,0 +1,21 @@
+.button {
+
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    //height: 21px;
+
+    &--primary {
+        color: #fff;
+        background-color: #3a1c96;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        
+      
+    }
+}

@@ -1,0 +1,36 @@
+.infos-bar {
+    padding: 16px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    background-color: rgb(249, 250, 250); 
+    border-radius: 10px;
+
+    &__infos {
+        display: flex;
+       gap: 40px;
+
+        &__item {
+            list-style: none;
+            font-size: 14px;
+            color: #171c20;
+    
+            b {
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+    @media (max-width: 640px){
+        display: block;
+
+        &__infos {
+            display: block;
+
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
+    }
+}
